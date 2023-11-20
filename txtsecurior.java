@@ -9,9 +9,8 @@ import java.util.Scanner;
 
 public class txtsecurior {
     public static void main(String[] args) {
-        String folderPath = "C:\\securios";
-        String passwordFilePath = "C:\\securios\\pass.txt";
-
+        String folderPath = "";  //자신의 경로를 쑤시오
+        String passwordFilePath = ""; //파일의 위치를 쓰시오
         // 폴더 비밀번호 설정
         setFolderPassword(folderPath, passwordFilePath);
 
